@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'SinaFont';
+    src: url('SinaHomeFont.7fcdfd2c.eot');
+    src: url('SinaHomeFont.7fcdfd2c.eot?#iefix') format('embedded-opentype'),
+        url('SinaHomeFont.7fcdfd2c.woff2') format('woff2'),
+        url('SinaHomeFont.7fcdfd2c.woff') format('woff'),
+        url('SinaHomeFont.7fcdfd2c.ttf') format('truetype'),
+        url('SinaHomeFont.7fcdfd2c.svg#SinaHomeFont.7fcdfd2c') format('svg');
+  }
+
+  .SinaFont {
+    font-family: "SinaFont" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-comment::before {
+      content: "\E90D";
+  }
